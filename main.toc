@@ -1,0 +1,39 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.1}Lista de Figuras}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.2}Lista de Tablas}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.3}Introducci\'on}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.4}\textbf {Propuesta de Proyecto}}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.4.1}Planteamiento del Problema}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.4.2}Propuesta del Proyecto}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.4.3}Trabajos Relacionados}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.4.4}Hip\'otesis}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.4.5}M\'etricas}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.4.6}Desarrollo del Proyecto}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.5}\textbf {Objetivo General}}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.6}\textbf {Objetivos Espec\'ificos}}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.7}\textbf {Alcance y Limitaciones}}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.8}\textbf {Entregables}}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.9}\textbf {Metodolog\'ia}}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.9.1}Dise\~no de Experimentos}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.9.2}Ambiente de Desarrollo}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.10}\textbf {Cronograma de Actividades}}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliograf\'ia}{17}

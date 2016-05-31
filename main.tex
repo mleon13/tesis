@@ -1,0 +1,38 @@
+%------------------------------------------------------------------------
+% Template provided by MIT
+%------------------------------------------------------------------------
+\documentclass[12pt,twoside]{mitthesis}
+%------------------------------------------------------------------------
+\usepackage{ragged2e}
+\usepackage{biblatex}
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+\usepackage{amssymb}
+\usepackage{indentfirst}
+%------------------------------------------------------------------------
+\begin{document}
+%------------------------------------------------------------------------
+% Renew commands - Tranlation
+%------------------------------------------------------------------------
+\renewcommand{\labelitemi}{\tiny$\blacksquare$}
+\renewcommand{\bibname}{Bibliograf\'ia} 
+\renewcommand{\abstractname}{Abstract}
+\renewcommand{\contentsname}{Tabla de Contenido}
+%------------------------------------------------------------------------
+% Document Structure
+%------------------------------------------------------------------------
+\include{cover}
+\include{contents}
+\include{appb}
+\include{appa}
+\include{intro}
+\include{proposal}
+\include{objectives}
+\include{scope}
+\include{deliverables}
+\include{method}
+\include{projectPlan}
+\include{biblio}
+\addcontentsline{toc}{section}{Bibliography}
+%------------------------------------------------------------------------
+\end{document}
+%------------------------------------------------------------------------
