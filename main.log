@@ -1,9 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.31)  31 MAY 2016 12:36
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.31)  1 JUN 2016 09:42
 entering extended mode
 **main.tex
-
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\main.tex"
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -16,8 +14,8 @@ ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\mitthesis.cls"
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\mitthesis.c
+ls"
 Document Class: mitthesis 1999/10/20
 \vithesis=\count79
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
@@ -334,44 +332,28 @@ File: english.lbx 2013/05/01 v2.6 biblatex localization (PK/JW/AB)
 \@quotelevel=\count206
 \@quotereset=\count207
 
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\main.aux"
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\cover.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\contents.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\appb.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\appa.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\intro.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\proposal.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\objectives.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\scope.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\deliverables.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\method.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\projectPlan.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\biblio.aux"
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.aux"
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\cover.aux")
 
-LaTeX Warning: Label `timewarping' multiply defined.
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\contents.au
+x") ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appb.au
+x") ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appa.au
+x")
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\intro.aux")
 
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\proposal.au
+x")
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\objectives.
+aux")
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\scope.aux")
 
-LaTeX Warning: Label `distances' multiply defined.
-
-
-LaTeX Warning: Label `rulediscovery' multiply defined.
-
-
-LaTeX Warning: Label `timewarping' multiply defined.
-
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\deliverable
+s.aux")
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\method.aux"
+)
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\projectPlan
+.aux")
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\biblio.aux"
 ))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
@@ -394,13 +376,11 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\main.bbl")
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.bbl")
 Package biblatex Info: Reference section=0 on input line 12.
 Package biblatex Info: Reference segment=0 on input line 12.
 
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\cover.tex"
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\cover.tex"
 Overfull \hbox (3.46954pt too wide) in paragraph at lines 10--10
 \OT1/cmr/m/n/14.4 putacion, para op-tar por el grado de Magster Sci-en-tiae 
 en Com-putacion,
@@ -413,20 +393,20 @@ en Com-putacion,
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\abstract.tex") [3
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\abstract.te
+x") [3
 
 ])
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\contents.tex" [4
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\contents.te
+x" [4
 
 
 
 ]
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\main.toc"
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.toc"
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 3.
@@ -436,25 +416,25 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write4
 ) [5]
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\appb.tex" [6
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appb.tex"
+[6
 
 
 ])
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\appa.tex" [7
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appa.tex"
+[7
 
 
 
 ])
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\intro.tex") [8
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\intro.tex")
+[8
 
 
 
 ]
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\proposal.tex"
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\proposal.te
+x"
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -489,23 +469,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
 
 ]
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\objectives.tex") [10
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\objectives.
+tex") [10
 
 
 ]
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\scope.tex") [11
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\scope.tex")
+[11
 
 
 ]
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\deliverables.tex") [12
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\deliverable
+s.tex") [12
 
 
 ]
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\method.tex"
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\method.tex"
+
 Overfull \hbox (6.86987pt too wide) in paragraph at lines 5--6
 \OT1/cmr/m/n/12 nor-mal-mente con-tribuye sub-stan-cial-mente a una mejor com-p
 rension del fenomeno
@@ -515,53 +495,47 @@ rension del fenomeno
 
 
 ] [14]
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\projectPlan.tex") [15
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\projectPlan
+.tex") [15
 
 
 ]
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\biblio.tex" [16
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\biblio.tex"
+[16
 
 
 
 ]) [17]
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\main.aux"
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\cover.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\contents.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\appb.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\appa.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\intro.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\proposal.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\objectives.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\scope.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\deliverables.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\method.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\projectPlan.aux")
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\Proposal\Proposal
-\biblio.aux"))
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.aux"
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\cover.aux")
 
-LaTeX Warning: There were multiply-defined labels.
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\contents.au
+x") ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appb.au
+x") ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appa.au
+x")
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\intro.aux")
 
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\proposal.au
+x")
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\objectives.
+aux")
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\scope.aux")
+
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\deliverable
+s.aux")
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\method.aux"
+)
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\projectPlan
+.aux")
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\biblio.aux"
+))
 Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 6270 strings out of 493921
- 110743 string characters out of 3147273
- 504216 words of memory out of 3000000
- 9418 multiletter control sequences out of 15000+200000
+ 6261 strings out of 493921
+ 109554 string characters out of 3147273
+ 504144 words of memory out of 3000000
+ 9409 multiletter control sequences out of 15000+200000
  12419 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,4n,35p,838b,656s stack positions out of 5000i,500n,10000p,200000b,50000s
