@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.31)  1 JUN 2016 09:43
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.31)  13 JUN 2016 15:17
 entering extended mode
 **main.tex
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.tex"
@@ -435,25 +435,40 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\proposal.te
 x"
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 3--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
+Underfull \hbox (badness 10000) in paragraph at lines 3--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 10000) in paragraph at lines 3--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
+Underfull \hbox (badness 10000) in paragraph at lines 3--14
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--14
+
+ []
+
+[9
+
+
+]
+Missing character: There is no â in font cmti12!
+Missing character: There is no € in font cmti12!
+Missing character: There is no œ in font cmti12!
+Missing character: There is no â in font cmti12!
+Missing character: There is no € in font cmti12!
+Missing character: There is no  in font cmti12!
 Missing character: There is no â in font cmbxti10!
 Missing character: There is no € in font cmbxti10!
 Missing character: There is no œ in font cmbxti10!
@@ -461,26 +476,23 @@ Missing character: There is no â in font cmbxti10!
 Missing character: There is no € in font cmbxti10!
 Missing character: There is no  in font cmbxti10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--10
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
-) [9
-
-
-]
+) [10]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\objectives.
-tex") [10
+tex") [11
 
 
 ]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\scope.tex")
-[11
+[12
 
 
 ]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\deliverable
-s.tex") [12
+s.tex") [13
 
 
 ]
@@ -491,21 +503,21 @@ Overfull \hbox (6.86987pt too wide) in paragraph at lines 5--6
 rension del fenomeno
  []
 
-) [13
+) [14
 
 
-] [14]
+] [15]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\projectPlan
-.tex") [15
+.tex") [16
 
 
 ]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\biblio.tex"
-[16
+) [17
 
 
 
-]) [17]
+]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.aux"
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\cover.aux")
 
@@ -532,10 +544,10 @@ s.aux")
 Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 6261 strings out of 493921
- 109554 string characters out of 3147273
- 504144 words of memory out of 3000000
- 9409 multiletter control sequences out of 15000+200000
+ 6265 strings out of 493921
+ 109598 string characters out of 3147273
+ 505156 words of memory out of 3000000
+ 9413 multiletter control sequences out of 15000+200000
  12419 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  44i,4n,35p,838b,656s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -544,7 +556,7 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on main.pdf (17 pages, 87200 bytes).
+Output written on main.pdf (17 pages, 94156 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
