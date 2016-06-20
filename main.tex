@@ -8,6 +8,8 @@
 \usepackage[nottoc,notlot,notlof]{tocbibind}
 \usepackage{amssymb}
 \usepackage{indentfirst}
+\usepackage{graphicx}
+\usepackage{caption}
 %------------------------------------------------------------------------
 \begin{document}
 %------------------------------------------------------------------------
@@ -17,13 +19,18 @@
 \renewcommand{\bibname}{Bibliograf\'ia} 
 \renewcommand{\abstractname}{Abstract}
 \renewcommand{\contentsname}{Tabla de Contenido}
+\renewcommand{\listtablename}{Lista de Figuras}
+%------------------------------------------------------------------------
+% Add captions
+%------------------------------------------------------------------------
+\captionsetup[table]{name = Tabla,font=small,skip=0pt}
 %------------------------------------------------------------------------
 % Document Structure
 %------------------------------------------------------------------------
 \include{cover}
 \include{contents}
-\include{appb}
 \include{appa}
+%\include{appb}
 \include{intro}
 \include{proposal}
 \include{objectives}
@@ -32,7 +39,7 @@
 \include{method}
 \include{projectPlan}
 \include{biblio}
-\addcontentsline{toc}{section}{Bibliography}
+%\addcontentsline{toc}{section}{Bibliography}
 %------------------------------------------------------------------------
 \end{document}
 %------------------------------------------------------------------------

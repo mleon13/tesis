@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.31)  13 JUN 2016 15:17
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.31)  20 JUN 2016 15:37
 entering extended mode
 **main.tex
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.tex"
@@ -323,20 +323,56 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\indentfirst.sty"
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count206
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@tempdima=\dimen108
+\caption@indent=\dimen109
+\caption@parindent=\dimen110
+\caption@hangindent=\dimen111
+)
+\c@ContinuedFloat=\count207
+)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
 File: english.lbx 2013/05/01 v2.6 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count206
-\@quotereset=\count207
+\@quotelevel=\count208
+\@quotereset=\count209
 
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.aux"
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\cover.aux")
 
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\contents.au
-x") ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appb.au
 x") ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appa.au
 x")
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\intro.aux")
@@ -355,20 +391,20 @@ s.aux")
 .aux")
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\biblio.aux"
 ))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 12.
+LaTeX Info: Redefining \selectfont on input line 14.
 Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
 Package biblatex Info: Automatic encoding selection.
@@ -377,10 +413,27 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.bbl")
-Package biblatex Info: Reference section=0 on input line 12.
-Package biblatex Info: Reference segment=0 on input line 12.
+Package biblatex Info: Reference section=0 on input line 14.
+Package biblatex Info: Reference segment=0 on input line 14.
 
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\cover.tex"
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count210
+\scratchdimen=\dimen112
+\scratchbox=\box28
+\nofMPsegments=\count211
+\nofMParguments=\count212
+\everyMPshowfont=\toks16
+\MPscratchCnt=\count213
+\MPscratchDim=\dimen113
+\MPnumerator=\count214
+\makeMPintoPDFobject=\count215
+\everyMPtoPDFconversion=\toks17
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\cover.tex"
+
 Overfull \hbox (3.46954pt too wide) in paragraph at lines 10--10
 \OT1/cmr/m/n/14.4 putacion, para op-tar por el grado de Magster Sci-en-tiae 
 en Com-putacion,
@@ -390,23 +443,16 @@ en Com-putacion,
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
-
-]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\abstract.te
-x") [3
+x") [2
 
 ])
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\contents.te
-x" [4
-
-
-
-]
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.toc"
+x" ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.toc
+"
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 3.
@@ -415,51 +461,51 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write4
-) [5]
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appb.tex"
-[6
+) [3
 
 
-])
+
+]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appa.tex"
-[7
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.lot")
+\tf@lot=\write5
+) [4
 
 
 
-])
+]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\intro.tex")
-[8
-
+[5
 
 
 ]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\proposal.te
 x"
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
+Underfull \hbox (badness 10000) in paragraph at lines 3--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
+Underfull \hbox (badness 10000) in paragraph at lines 3--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
+Underfull \hbox (badness 10000) in paragraph at lines 3--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
+Underfull \hbox (badness 10000) in paragraph at lines 3--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
+Underfull \hbox (badness 10000) in paragraph at lines 3--12
 
  []
 
-[9
+[6
 
 
 ]
@@ -476,23 +522,27 @@ Missing character: There is no ‚ in font cmbxti10!
 Missing character: There is no Ä in font cmbxti10!
 Missing character: There is no ù in font cmbxti10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
 
-) [10]
+) [7]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\objectives.
-tex") [11
+tex") [8
 
 
 ]
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\scope.tex")
-[12
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\scope.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+) [9
 
 
 ]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\deliverable
-s.tex") [13
+s.tex") [10
 
 
 ]
@@ -503,17 +553,44 @@ Overfull \hbox (6.86987pt too wide) in paragraph at lines 5--6
 rension del fenomeno
  []
 
-) [14
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ú in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ù in font cmti12!
+) [11
 
 
-] [15]
+] [12]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\projectPlan
-.tex") [16
+.tex" <cronograma.png, id=44, 885.3075pt x 201.00093pt>
+File: cronograma.png Graphic file (type png)
+ <use cronograma.png>
+Package pdftex.def Info: cronograma.png used on input line 7.
+(pdftex.def)             Requested size: 442.65266pt x 100.50021pt.
+
+Overfull \hbox (9.03267pt too wide) in paragraph at lines 7--8
+[][] 
+ []
 
 
-]
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 2--40
+
+ []
+
+[13
+
+
+ <C:/Users/MVINICIO/Documents/Maestria 2013-2015/Seminario #1/tesis/cronograma.
+png>]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\biblio.tex"
-) [17
+) [14
 
 
 
@@ -522,7 +599,6 @@ rension del fenomeno
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\cover.aux")
 
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\contents.au
-x") ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appb.au
 x") ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appa.au
 x")
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\intro.aux")
@@ -544,21 +620,22 @@ s.aux")
 Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 6265 strings out of 493921
- 109598 string characters out of 3147273
- 505156 words of memory out of 3000000
- 9413 multiletter control sequences out of 15000+200000
+ 8009 strings out of 493921
+ 137449 string characters out of 3147273
+ 532958 words of memory out of 3000000
+ 11133 multiletter control sequences out of 15000+200000
  12419 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 44i,4n,35p,838b,656s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,7n,39p,838b,656s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on main.pdf (17 pages, 94156 bytes).
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/symbols/msam7.pfb>
+Output written on main.pdf (14 pages, 124171 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
