@@ -2,34 +2,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {0.1}\textbf {Introducci\'on}}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.2}\textbf {Propuesta de Proyecto}}{6}
+\contentsline {section}{\numberline {0.2}\textbf {Marco Te\'orico}}{6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.2.1}Planteamiento del Problema}{6}
+\contentsline {section}{\numberline {0.3}\textbf {Propuesta de Proyecto}}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.2.2}Propuesta del Proyecto}{7}
+\contentsline {subsection}{\numberline {0.3.1}Planteamiento del Problema}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.2.3}Trabajos Relacionados}{7}
+\contentsline {subsection}{\numberline {0.3.2}Propuesta del Proyecto}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.2.4}Hip\'otesis}{7}
+\contentsline {subsection}{\numberline {0.3.3}Trabajos Relacionados}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.2.5}M\'etricas}{7}
+\contentsline {subsection}{\numberline {0.3.4}Hip\'otesis}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.2.6}Desarrollo del Proyecto}{7}
+\contentsline {subsection}{\numberline {0.3.5}M\'etricas}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.3}\textbf {Objetivo General}}{8}
+\contentsline {subsection}{\numberline {0.3.6}Desarrollo del Proyecto}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.4}\textbf {Objetivos Espec\'ificos}}{8}
+\contentsline {section}{\numberline {0.4}\textbf {Objetivo General}}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.5}\textbf {Alcance y Limitaciones}}{9}
+\contentsline {section}{\numberline {0.5}\textbf {Objetivos Espec\'ificos}}{9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.6}\textbf {Entregables}}{10}
+\contentsline {section}{\numberline {0.6}\textbf {Alcance y Limitaciones}}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.7}\textbf {Metodolog\'ia}}{11}
+\contentsline {section}{\numberline {0.7}\textbf {Entregables}}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.7.1}Dise\~no de Experimentos}{11}
+\contentsline {section}{\numberline {0.8}\textbf {Metodolog\'ia}}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {0.7.2}Ambiente de Desarrollo}{12}
+\contentsline {subsection}{\numberline {0.8.1}Dise\~no de Experimentos}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {0.8}\textbf {Cronograma de Actividades}}{13}
+\contentsline {subsection}{\numberline {0.8.2}Ambiente de Desarrollo}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliograf\'ia}{14}
+\contentsline {section}{\numberline {0.9}\textbf {Cronograma de Actividades}}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliograf\'ia}{15}
