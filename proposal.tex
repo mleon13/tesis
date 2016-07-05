@@ -1,6 +1,6 @@
-\section{\textbf{Propuesta de Proyecto}}
+\section{\textbf{Propuesta de Proyecto}}\label{propuesta} 
 \subsection{Planteamiento del Problema}
-La visi\'on por computadora es una disciplina cient\'ifica que utiliza distintos m\'etodos para adquirir, procesar, analizar y comprender im\'agenes del mundo real. 
+La visi\'on por computadora es una disciplina cient\'ifica que utiliza distintos m\'etodos para adquirir, procesar, analizar y comprender im\'agenes del mundo real \cite{klette}. 
 \\\\
 Durante la \'ultima d\'ecada hemos sido testigos del impresionante avance tecnol\'ogico de las c\'amaras fotogr\'aficas. Actualmente, vivimos en una era donde contamos con dispositivos m\'oviles capaces de tomar fotograf\'ias de alta calidad en cualquier lugar y momento. 
 \\\\
@@ -8,12 +8,31 @@ Este avance ha sido el detonante para que en a\~nos recientes la visi\'on por co
 \\\\
 En el Instituto del Caf\'e de Costa Rica (ICAFE) se cuenta con algoritmos para estimar la producci\'on de una planta en particular. Sin embargo, dichos algoritmos requieren como par\'ametro el n\'umero de granos de caf\'e en la planta en cierto punto de su desarrollo. Actualmente, el proceso de conteo de granos se realiza de forma manual, consumiendo una gran cantidad de horas hombre. ICAFE cuenta con una serie de im\'agenes de granos de caf\'e y se desea encontrar una manera autom\'atica de realizar el conteo de granos con el fin de incrementar la eficiencia en el proceso.
 \\\\\\
-En la literatura, se han propuesto varias soluciones para atacar este problema. Sin embargo, la gran mayor\'ia utiliza como entrada im\'agenes de granos en un ambiente controlado. Este es el caso de P-TRAP, una herramienta de c\'odigo abierto que implementa un algoritmo para la detecci\'on de granos en un ambiente controlado. Sin embargo, ICAFE no cuenta con un ambiente controlado para la toma de im\'agenes y cada imagen es tomada directamente desde la planta, en su ambiente natural. Por lo que no se puede hacer uso de esta funci\'on en P-TRAP para realizar el conteo a partir de las imagenes de ICAFE.
+En la literatura, se han propuesto varias soluciones para atacar este problema. Sin embargo, la gran mayor\'ia utiliza como entrada im\'agenes de granos en un ambiente controlado.Este es el caso de P-TRAP, una herramienta de c\'odigo abierto que implementa un algoritmo para la detecci\'on de granos en un ambiente controlado. Sin embargo, ICAFE no cuenta con un ambiente controlado para la toma de im\'agenes y cada imagen es tomada directamente desde la planta, en su ambiente natural. 
+\\\\
+Realizar la detecci\'on de granos de caf\'e a partir de im\'agenes tomadas fuera de un ambiente controlado agrega una serie de dificultades al proceso, algunas de estas dificultades son:
+\begin{enumerate}
+    \item Los granos traslapados imponen una dificultad ya que el grano pierde su forma y en ocasiones es solo una m\'inima parte del grano que esta a la vista.
+    \item Los granos que estan detr\'as del r\'acimo, que no est\'an a la vista. Sabemos que detr\'as del r\'acimo que estamos viendo hay granos de caf\'e pero no sabemos cuantos porque no los podemos ver.
+    \item Distancia de los granos con respecto a la c\'amara. En un ambiente controlado podemos tratar esto como una constante y definir un rango de tama\~nos. Sin embargo, en el caso de las im\'agenes tomadas en su ambiente natural no se tiene control sobre esto. El tama\~no de los granos de caf\'e en la imagen va estar determinado por la distancia del r\'acimo al lente de la c\'amara.
+    \item Ruido en el fondo de la imagen. En un ambiente controlado el fondo de la imagen tiene un mismo color y textura. En el caso de las im\'agenes de ICAFE, en el fondo se observan hojas, ramas y otro tipo de objetos que le agregan ruido a la imagen.
+\end{enumerate}
+En el caso espec\'ifico de P-TRAP, el algoritmo que permite realizar la detecci\'on de granos no es capaz de resolver dichas dificultades por lo que la precisi\'on de la detecci\'on de granos es muy baja. 
 \subsection{Propuesta del Proyecto}
-A partir de lo descrito anteriormente, este proyecto pretende estudiar la eficacia en el conteo de granos a partir de la incorporaci\'on del algoritmo \textit{“Fast Radial Symmetry Transform”} al proceso de conteo de granos ya existente en la herramienta P-TRAP.
+A partir de lo descrito anteriormente, este proyecto pretende estudiar la eficacia en la detecci\'on de granos a partir de la incorporaci\'on del algoritmo \textit{“Fast Radial Symmetry Transform”}\cite{loyzelinsky} al proceso de detecci\'on y conteo de granos ya existente en la herramienta P-TRAP\cite{ptrap}. Este estudio deja por fuera y como parte del posible trabajo futuro, la detecci\'on de granos de caf\'e traslapados y aquellos no visibles en la imagen.
 \subsection{Trabajos Relacionados}
+La detecci\'on de objetos en im\'agenes ha sido estudiada en muchos trabajos de investigaci\'on.
+En \cite{montgomeryx} asdasdasd
+
 \subsection{Hip\'otesis}
 Con base en la definici\'on del problema y en la propuesta de proyecto, se define la siguiente hip\'otesis:\\\\
-\textbf{\textit{La incorporaci\'on del algoritmo “Fast Radial Symmetry Transform” para la detecci\'on de granos de caf\'e en la herramienta de c\'odigo abierto P-TRAP aumenta la cantidad de detecciones de granos de caf\'e existentes en una imagen.}} 
-\subsection{M\'etricas}
+\textbf{\textit{La incorporaci\'on del algoritmo “Fast Radial Symmetry Transform”\cite{loyzelinsky} para la detecci\'on de granos de caf\'e en la herramienta de c\'odigo abierto P-TRAP\cite{ptrap} aumenta la cantidad de detecciones de granos de caf\'e existentes en una imagen.}} 
+\subsection{M\'etricas} \label{metricas}
+El objetivo de este estudio es medir la precisi\'on en la detecci\'on de granos de caf\'e existentes en una versi\'on de la herramienta P-TRAP\cite{ptrap} que incorpore el algoritmo \textit{Fast Radial Symmetry Transform”}\cite{loyzelinsky} y realizar una comparaci\'on con la precisi\'on en la versi\'on por defecto de P-TRAP\cite{ptrap}. Como parte del an\'alisis comparativo entre ambas versiones de P-TRAP\cite{ptrap} se define la siguiente m\'etrica:
+\begin{itemize}
+\item Precisi\'on: \[ granos\_detectados / total\_granos\_existentes \]
+\end{itemize}
 \subsection{Desarrollo del Proyecto}
+El desarrollo de este proyecto implica la creaci\'on de una versi\'on de P-TRAP\cite{ptrap} que incorpore el algoritmo \textit{Fast Radial Symmetry Transform”}\cite{loyzelinsky}. Para el desarrollo de esta versi\'on de P-TRAP\cite{ptrap} se har\'a uso de bibliotecas cuando sea posible, y se programar\'a \'unicamente los algoritmos o funcionalidades que no est\'en disponibles en bibliotecas.
+\\\\
+El desarrollo del proyecto incluye adem\'as el an\'alisis comparativo de la versi\'on por defecto de P-TRAP\cite{ptrap} y la versi\'on desarrollada en este estudio. Para realizar este an\'alisis comparativo es necesario realizar el preprocesamiento sobre el conjunto de im\'agenes proporcionadas por ICAFE. Posteriormente se determinar\'a la cantidad de granos existentes en cada imagen. Luego, en cada versi\'on de P-TRAP\cite{ptrap}, se ejecutar\'a el proceso de detecci\'on de granos sobre cada imagen y se tomar\'a registro de la cantidad de granos de caf\'e existentes detectados. Finalmente, se har\'a un an\'alisis detallado sobre los resultados obtenidos.

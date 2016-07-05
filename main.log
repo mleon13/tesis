@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.31)  1 JUL 2016 14:52
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.31)  5 JUL 2016 14:44
 entering extended mode
 **main.tex
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.tex"
@@ -64,244 +64,13 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \@abstractsupervisor=\box27
 \c@savepage=\count89
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.sty"
-Package: biblatex 2013/05/01 v2.6 programmable bibliographies (PK/JW/AB)
-
-
-Package biblatex Warning: No "backend" specified, using Biber backend.
-(biblatex)                To use BibTeX, load biblatex with 
-(biblatex)                the "backend=bibtex" option.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex2.sty"
-Package: biblatex2 2013/05/01 v2.6 programmable bibliographies (biber) (PK/JW/A
-B)
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
-Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
-Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count90
+("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip57
+\bibsep=\skip58
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count90
 )
-\etb@tempcnta=\count91
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks14
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.sty"
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count92
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\logreq\logreq.def"
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
-Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
-\Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-)
-\c@tabx@nest=\count93
-\c@listtotal=\count94
-\c@listcount=\count95
-\c@liststart=\count96
-\c@liststop=\count97
-\c@citecount=\count98
-\c@citetotal=\count99
-\c@multicitecount=\count100
-\c@multicitetotal=\count101
-\c@instcount=\count102
-\c@maxnames=\count103
-\c@minnames=\count104
-\c@maxitems=\count105
-\c@minitems=\count106
-\c@citecounter=\count107
-\c@savedcitecounter=\count108
-\c@uniquelist=\count109
-\c@uniquename=\count110
-\c@refsection=\count111
-\c@refsegment=\count112
-\c@maxextratitle=\count113
-\c@maxextratitleyear=\count114
-\c@maxextrayear=\count115
-\c@maxextraalpha=\count116
-\c@abbrvpenalty=\count117
-\c@highnamepenalty=\count118
-\c@lownamepenalty=\count119
-\c@maxparens=\count120
-\c@parenlevel=\count121
-\blx@tempcnta=\count122
-\blx@tempcntb=\count123
-\blx@tempcntc=\count124
-\blx@maxsection=\count125
-\blx@maxsegment@0=\count126
-\blx@notetype=\count127
-\blx@parenlevel@text=\count128
-\blx@parenlevel@foot=\count129
-\blx@sectionciteorder@0=\count130
-\labelnumberwidth=\skip57
-\labelalphawidth=\skip58
-\shorthandwidth=\skip59
-\biblabelsep=\skip60
-\bibitemsep=\skip61
-\bibnamesep=\skip62
-\bibinitsep=\skip63
-\bibparsep=\skip64
-\bibhang=\skip65
-\blx@bcfin=\read1
-\blx@bcfout=\write3
-\c@mincomprange=\count131
-\c@maxcomprange=\count132
-\c@mincompwidth=\count133
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-dm.def")
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count134
-\c@savedafterword=\count135
-\c@annotator=\count136
-\c@savedannotator=\count137
-\c@author=\count138
-\c@savedauthor=\count139
-\c@bookauthor=\count140
-\c@savedbookauthor=\count141
-\c@commentator=\count142
-\c@savedcommentator=\count143
-\c@editor=\count144
-\c@savededitor=\count145
-\c@editora=\count146
-\c@savededitora=\count147
-\c@editorb=\count148
-\c@savededitorb=\count149
-\c@editorc=\count150
-\c@savededitorc=\count151
-\c@foreword=\count152
-\c@savedforeword=\count153
-\c@holder=\count154
-\c@savedholder=\count155
-\c@introduction=\count156
-\c@savedintroduction=\count157
-\c@namea=\count158
-\c@savednamea=\count159
-\c@nameb=\count160
-\c@savednameb=\count161
-\c@namec=\count162
-\c@savednamec=\count163
-\c@shortauthor=\count164
-\c@savedshortauthor=\count165
-\c@shorteditor=\count166
-\c@savedshorteditor=\count167
-\c@translator=\count168
-\c@savedtranslator=\count169
-\c@labelname=\count170
-\c@savedlabelname=\count171
-\c@institution=\count172
-\c@savedinstitution=\count173
-\c@lista=\count174
-\c@savedlista=\count175
-\c@listb=\count176
-\c@savedlistb=\count177
-\c@listc=\count178
-\c@savedlistc=\count179
-\c@listd=\count180
-\c@savedlistd=\count181
-\c@liste=\count182
-\c@savedliste=\count183
-\c@listf=\count184
-\c@savedlistf=\count185
-\c@location=\count186
-\c@savedlocation=\count187
-\c@organization=\count188
-\c@savedorganization=\count189
-\c@origlocation=\count190
-\c@savedoriglocation=\count191
-\c@origpublisher=\count192
-\c@savedorigpublisher=\count193
-\c@publisher=\count194
-\c@savedpublisher=\count195
-\c@language=\count196
-\c@savedlanguage=\count197
-\c@pageref=\count198
-\c@savedpageref=\count199
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\blx-compat.def"
-File: blx-compat.def 2013/05/01 v2.6 biblatex compatibility (PK/JW/AB)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.def"
-File: biblatex.def 
-\c@biburlnumpenalty=\count200
-\c@biburlucpenalty=\count201
-\c@biburllcpenalty=\count202
-\c@smartand=\count203
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\numeric.bbx"
-File: numeric.bbx 2013/05/01 v2.6 biblatex bibliography style (PK/JW/AB)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\bbx\standard.bbx"
-File: standard.bbx 2013/05/01 v2.6 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count204
-\c@bbx:relatedtotal=\count205
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\cbx\numeric.cbx"
-File: numeric.cbx 2013/05/01 v2.6 biblatex citation style (PK/JW/AB)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\biblatex.cfg"
-File: biblatex.cfg 
-)))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
@@ -314,7 +83,7 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks15
+\@emptytoks=\toks14
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -326,6 +95,10 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
@@ -339,7 +112,14 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count206
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count91
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -358,17 +138,8 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \caption@parindent=\dimen110
 \caption@hangindent=\dimen111
 )
-\c@ContinuedFloat=\count207
+\c@ContinuedFloat=\count92
 )
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
-File: english.lbx 2013/05/01 v2.6 biblatex localization (PK/JW/AB)
-)
-\@quotelevel=\count208
-\@quotereset=\count209
-
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.aux"
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\cover.aux")
 
@@ -395,43 +166,33 @@ LaTeX Warning: Label `arm:tabla' multiply defined.
 
 ) ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\biblio.au
 x"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 14.
-Package biblatex Info: No input encoding detected.
-(biblatex)             Assuming 'ascii'.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'ascii'.
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
-
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.bbl")
-Package biblatex Info: Reference section=0 on input line 14.
-Package biblatex Info: Reference segment=0 on input line 14.
+LaTeX Info: Redefining \selectfont on input line 16.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count210
+\scratchcounter=\count93
 \scratchdimen=\dimen112
 \scratchbox=\box28
-\nofMPsegments=\count211
-\nofMParguments=\count212
+\nofMPsegments=\count94
+\nofMParguments=\count95
 \everyMPshowfont=\toks16
-\MPscratchCnt=\count213
+\MPscratchCnt=\count96
 \MPscratchDim=\dimen113
-\MPnumerator=\count214
-\makeMPintoPDFobject=\count215
+\MPnumerator=\count97
+\makeMPintoPDFobject=\count98
 \everyMPtoPDFconversion=\toks17
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -455,25 +216,25 @@ x") [2
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\contents.te
 x" ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.toc
 "
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 1.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-\tf@toc=\write4
 ) [3
 
 
 
-]
+])
+\tf@toc=\write3
+) [4]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appa.tex"
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.lot")
-\tf@lot=\write5
-) [4
+\tf@lot=\write4
+) [5
 
 
 
@@ -499,42 +260,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--11
 
  []
 
-) [5
+) [6
 
 
 ]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\theory.tex"
-) [6
+) [7
 
 
 ]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\proposal.te
 x"
-Underfull \hbox (badness 10000) in paragraph at lines 3--12
+Underfull \hbox (badness 10000) in paragraph at lines 3--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--12
+Underfull \hbox (badness 10000) in paragraph at lines 3--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--12
+Underfull \hbox (badness 10000) in paragraph at lines 3--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--12
+Underfull \hbox (badness 10000) in paragraph at lines 3--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--12
+Underfull \hbox (badness 10000) in paragraph at lines 3--14
 
  []
 
-[7
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--14
+
+ []
+
+[8
 
 
 ]
@@ -544,6 +310,7 @@ Missing character: There is no ú in font cmti12!
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ù in font cmti12!
+ [9]
 Missing character: There is no ‚ in font cmbxti10!
 Missing character: There is no Ä in font cmbxti10!
 Missing character: There is no ú in font cmbxti10!
@@ -551,27 +318,45 @@ Missing character: There is no ‚ in font cmbxti10!
 Missing character: There is no Ä in font cmbxti10!
 Missing character: There is no ù in font cmbxti10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
-) [8]
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ù in font cmti12!
+[10]
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ù in font cmti12!
+)
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+ []
+
+[11]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\objectives.
-tex") [9
+tex") [12
 
 
 ]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\scope.tex"
+Overfull \hbox (4.34631pt too wide) in paragraph at lines 5--6
+[]\OT1/cmr/m/n/12 Todas las fun-cional-i-dades de P-TRAP[[]] es-taran disponib
+les en la nueva version. 
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-) [10
+) [13
 
 
 ]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\deliverable
-s.tex") [11
+s.tex") [14
 
 
 ]
@@ -582,18 +367,35 @@ Overfull \hbox (6.86987pt too wide) in paragraph at lines 5--6
 rension del fenomeno
  []
 
+[15
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 14--18
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 47--51
+
+ []
+
+
+Overfull \hbox (4.51031pt too wide) in paragraph at lines 47--51
+\OT1/cmr/m/n/12 La tecnica de Kruskal-Wallis[[]] prueba la hipotesis nula de 
+que las \OT1/cmr/m/it/12 k \OT1/cmr/m/n/12 mues-tras provienen
+ []
+
+[17]
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ú in font cmti12!
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ù in font cmti12!
-) [12
-
-
-] [13]
+) [18]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\projectPlan
-.tex" <cronograma.png, id=48, 792.71156pt x 201.75375pt>
+.tex" <cronograma.png, id=67, 792.71156pt x 201.75375pt>
 File: cronograma.png Graphic file (type png)
  <use cronograma.png>
 Package pdftex.def Info: cronograma.png used on input line 8.
@@ -603,7 +405,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--14
 
  []
 
-<cronograma_detallado.png, id=49, 1005.00468pt x 306.39468pt>
+<cronograma_detallado.png, id=68, 1005.00468pt x 306.39468pt>
 File: cronograma_detallado.png Graphic file (type png)
 
 <use cronograma_detallado.png>
@@ -614,18 +416,18 @@ Overfull \hbox (68.88112pt too wide) in paragraph at lines 17--17
  [][] 
  []
 
-) [14
+) [19
 
 
  <C:/Users/MVINICIO/Documents/Maestria 2013-2015/Seminario #1/tesis/cronograma.
 png> <C:/Users/MVINICIO/Documents/Maestria 2013-2015/Seminario #1/tesis/cronogr
 ama_detallado.png>]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\biblio.tex"
-) [15
+[20
 
 
 
-]
+]) [21]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.aux"
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\cover.aux")
 
@@ -652,25 +454,28 @@ s.aux")
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package logreq Info: Writing requests to 'main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 8022 strings out of 493921
- 138059 string characters out of 3147273
- 535148 words of memory out of 3000000
- 11138 multiletter control sequences out of 15000+200000
+ 3239 strings out of 493921
+ 52766 string characters out of 3147273
+ 104384 words of memory out of 3000000
+ 6426 multiletter control sequences out of 15000+200000
  12419 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 44i,7n,39p,838b,656s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,7n,39p,815b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/symbols/msam7.pfb>
-Output written on main.pdf (15 pages, 160755 bytes).
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti1
+2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pf
+b>
+Output written on main.pdf (21 pages, 208577 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 112 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
