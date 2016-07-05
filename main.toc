@@ -4,21 +4,21 @@
 \contentsline {subsection}{\numberline {0.3.1}Planteamiento del Problema}{8}
 \contentsline {subsection}{\numberline {0.3.2}Propuesta del Proyecto}{10}
 \contentsline {subsection}{\numberline {0.3.3}Trabajos Relacionados}{10}
-\contentsline {subsection}{\numberline {0.3.4}Hip\'otesis}{10}
-\contentsline {subsection}{\numberline {0.3.5}M\'etricas}{10}
-\contentsline {subsection}{\numberline {0.3.6}Desarrollo del Proyecto}{11}
-\contentsline {section}{\numberline {0.4}\textbf {Objetivos}}{12}
-\contentsline {subsection}{\numberline {0.4.1}Objetivos Generales}{12}
-\contentsline {subsection}{\numberline {0.4.2}Objetivos Espec\'ificos}{12}
-\contentsline {section}{\numberline {0.5}\textbf {Alcance y Limitaciones}}{13}
-\contentsline {section}{\numberline {0.6}\textbf {Entregables}}{14}
-\contentsline {section}{\numberline {0.7}\textbf {Metodolog\'ia}}{15}
-\contentsline {subsection}{\numberline {0.7.1}Dise\~no de Experimentos}{15}
-\contentsline {subsubsection}{\numberline {0.7.1.1}Declaraci\'on del problema}{16}
-\contentsline {subsubsection}{\numberline {0.7.1.2}Factores}{16}
-\contentsline {subsubsection}{\numberline {0.7.1.3}Variables de respuesta}{17}
-\contentsline {subsubsection}{\numberline {0.7.1.4}Recolecci\'on de datos}{17}
-\contentsline {subsubsection}{\numberline {0.7.1.5}An\'alisis estad\'istico}{17}
-\contentsline {subsection}{\numberline {0.7.2}Ambiente de desarrollo}{18}
-\contentsline {section}{\numberline {0.8}\textbf {Plan de trabajo}}{19}
-\contentsline {chapter}{Bibliograf\'ia}{20}
+\contentsline {subsection}{\numberline {0.3.4}Hip\'otesis}{11}
+\contentsline {subsection}{\numberline {0.3.5}M\'etricas}{11}
+\contentsline {subsection}{\numberline {0.3.6}Desarrollo del Proyecto}{12}
+\contentsline {section}{\numberline {0.4}\textbf {Objetivos}}{13}
+\contentsline {subsection}{\numberline {0.4.1}Objetivos Generales}{13}
+\contentsline {subsection}{\numberline {0.4.2}Objetivos Espec\'ificos}{13}
+\contentsline {section}{\numberline {0.5}\textbf {Alcance y Limitaciones}}{14}
+\contentsline {section}{\numberline {0.6}\textbf {Entregables}}{15}
+\contentsline {section}{\numberline {0.7}\textbf {Metodolog\'ia}}{16}
+\contentsline {subsection}{\numberline {0.7.1}Dise\~no de Experimentos}{16}
+\contentsline {subsubsection}{\numberline {0.7.1.1}Declaraci\'on del problema}{17}
+\contentsline {subsubsection}{\numberline {0.7.1.2}Factores}{17}
+\contentsline {subsubsection}{\numberline {0.7.1.3}Variables de respuesta}{18}
+\contentsline {subsubsection}{\numberline {0.7.1.4}Recolecci\'on de datos}{18}
+\contentsline {subsubsection}{\numberline {0.7.1.5}An\'alisis estad\'istico}{18}
+\contentsline {subsection}{\numberline {0.7.2}Ambiente de desarrollo}{19}
+\contentsline {section}{\numberline {0.8}\textbf {Plan de trabajo}}{20}
+\contentsline {chapter}{Bibliograf\'ia}{21}
