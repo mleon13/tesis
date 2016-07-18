@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.31)  5 JUL 2016 16:06
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.31)  18 JUL 2016 10:44
 entering extended mode
 **main.tex
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.tex"
@@ -140,11 +140,17 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 )
 \c@ContinuedFloat=\count92
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count93
+\c@subtable=\count94
+)
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.aux"
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\cover.aux")
 
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\contents.au
 x") ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appa.au
+x") ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appb.au
 x")
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\intro.aux")
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\theory.aux"
@@ -160,46 +166,43 @@ s.aux")
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\method.aux"
 )
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\projectPlan
-.aux"
-
-LaTeX Warning: Label `arm:tabla' multiply defined.
-
-) ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\biblio.au
-x"))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+.aux")
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\biblio.aux"
+))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 16.
+LaTeX Info: Redefining \selectfont on input line 17.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count93
+\scratchcounter=\count95
 \scratchdimen=\dimen112
 \scratchbox=\box28
-\nofMPsegments=\count94
-\nofMParguments=\count95
+\nofMPsegments=\count96
+\nofMParguments=\count97
 \everyMPshowfont=\toks16
-\MPscratchCnt=\count96
+\MPscratchCnt=\count98
 \MPscratchDim=\dimen113
-\MPnumerator=\count97
-\makeMPintoPDFobject=\count98
+\MPnumerator=\count99
+\makeMPintoPDFobject=\count100
 \everyMPtoPDFconversion=\toks17
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\cover.tex"
 
-Overfull \hbox (3.46954pt too wide) in paragraph at lines 10--10
+Overfull \hbox (3.46954pt too wide) in paragraph at lines 13--13
 \OT1/cmr/m/n/14.4 putacion, para op-tar por el grado de Magster Sci-en-tiae 
 en Com-putacion,
  []
@@ -239,98 +242,217 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\intro.tex"
-Overfull \hbox (1.2866pt too wide) in paragraph at lines 2--11
-[]\OT1/cmr/m/n/12 El pre-sente tra-bajo trata so-bre la de-teccion de gra-nos 
-de cafe ex-is-tente en imagenes.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2--11
-
- []
-
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appb.tex"
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.lof")
+\tf@lof=\write5
 ) [6
 
 
+
 ]
+("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\intro.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 2--15
+
+ []
+
+
+Overfull \hbox (4.7148pt too wide) in paragraph at lines 2--15
+\OT1/cmr/m/it/12 "Fast Ra-dial Sym-me-try Trans-form"\OT1/cmr/m/n/12 [[]] en la
+ her-ramienta de codigo abierto P-TRAP[[]]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--15
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
+
+
+])
+[8]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\theory.tex"
-) [7
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ° in font cmr12!
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ° in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
+
+ []
+
+[9
 
 
 ]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no ° in font cmr12!
+)
+Underfull \hbox (badness 10000) in paragraph at lines 15--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--42
+
+ []
+
+[10]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\proposal.te
-x"
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
+x" <granos_1.png, id=37, 106.89937pt x 203.25937pt>
+File: granos_1.png Graphic file (type png)
+ <use granos_1.png>
+Package pdftex.def Info: granos_1.png used on input line 18.
+(pdftex.def)             Requested size: 100.0pt x 190.13957pt.
+
+<semillas_ptrap_1.png, id=38, 171.64125pt x 81.30376pt>
+File: semillas_ptrap_1.png Graphic file (type png)
+
+<use semillas_ptrap_1.png>
+Package pdftex.def Info: semillas_ptrap_1.png used on input line 23.
+(pdftex.def)             Requested size: 170.0pt x 80.52568pt.
+
+<granos_binario_1.png, id=39, 123.46124pt x 204.765pt>
+File: granos_binario_1.png Graphic file (type png)
+
+<use granos_binario_1.png>
+Package pdftex.def Info: granos_binario_1.png used on input line 36.
+(pdftex.def)             Requested size: 100.0pt x 165.86185pt.
+
+<semillas_ptrap_binario_1.png, id=40, 161.10187pt x 111.41624pt>
+File: semillas_ptrap_binario_1.png Graphic file (type png)
+
+<use semillas_ptrap_binario_1.png>
+Package pdftex.def Info: semillas_ptrap_binario_1.png used on input line 41.
+(pdftex.def)             Requested size: 170.0pt x 117.57533pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
+Underfull \hbox (badness 10000) in paragraph at lines 3--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
+Underfull \hbox (badness 10000) in paragraph at lines 3--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
+Underfull \hbox (badness 10000) in paragraph at lines 3--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
+Underfull \hbox (badness 10000) in paragraph at lines 3--52
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3--14
+Underfull \hbox (badness 10000) in paragraph at lines 3--52
 
  []
 
-[8
+[11
 
 
-]
+] [12 <C:/Users/MVINICIO/Documents/Maestria 2013-2015/Seminario #1/tesis/granos
+_1.png> <C:/Users/MVINICIO/Documents/Maestria 2013-2015/Seminario #1/tesis/semi
+llas_ptrap_1.png>] [13 <C:/Users/MVINICIO/Documents/Maestria 2013-2015/Seminari
+o #1/tesis/granos_binario_1.png> <C:/Users/MVINICIO/Documents/Maestria 2013-201
+5/Seminario #1/tesis/semillas_ptrap_binario_1.png>]
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ú in font cmti12!
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ù in font cmti12!
- [9]
-Underfull \hbox (badness 10000) in paragraph at lines 24--33
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ú in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ù in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ú in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ú in font cmti12!
+Missing character: There is no ‚ in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no ù in font cmti12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--33
+Underfull \hbox (badness 10000) in paragraph at lines 60--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--33
+Underfull \hbox (badness 10000) in paragraph at lines 60--67
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 68--77
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--33
+Underfull \hbox (badness 10000) in paragraph at lines 68--77
 
  []
 
-[10]
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--77
+
+ []
+
+[15]
 Missing character: There is no ‚ in font cmbxti10!
 Missing character: There is no Ä in font cmbxti10!
 Missing character: There is no ú in font cmbxti10!
@@ -338,24 +460,36 @@ Missing character: There is no ‚ in font cmbxti10!
 Missing character: There is no Ä in font cmbxti10!
 Missing character: There is no ù in font cmbxti10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--37
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ù in font cmti12!
+[16]
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ù in font cmti12!
+ <granos_2.png, id=61, 404.26031pt x 723.45282pt>
+File: granos_2.png Graphic file (type png)
+ <use granos_2.png>
+Package pdftex.def Info: granos_2.png used on input line 97.
+(pdftex.def)             Requested size: 120.0pt x 214.74141pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 43--38
+Underfull \hbox (badness 10000) in paragraph at lines 90--43
 
  []
 
-[11] [12]
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--43
+
+ []
+
+[17] [18 <C:/Users/MVINICIO/Documents/Maestria 2013-2015/Seminario #1/tesis/gra
+nos_2.png>]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\objectives.
-tex") [13
+tex") [19
 
 
 ]
@@ -366,16 +500,16 @@ les en la nueva version.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-) [14
+) [20
 
 
 ]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\deliverable
-s.tex") [15
+s.tex") [21
 
 
 ]
@@ -386,7 +520,7 @@ Overfull \hbox (6.86987pt too wide) in paragraph at lines 5--6
 rension del fenomeno
  []
 
-[16
+[22
 
 
 ]
@@ -394,27 +528,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--18
 
  []
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 47--51
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 39--43
 
  []
 
 
-Overfull \hbox (4.51031pt too wide) in paragraph at lines 47--51
+Overfull \hbox (4.51031pt too wide) in paragraph at lines 39--43
 \OT1/cmr/m/n/12 La tecnica de Kruskal-Wallis[[]] prueba la hipotesis nula de 
 que las \OT1/cmr/m/it/12 k \OT1/cmr/m/n/12 mues-tras provienen
  []
 
-[18]
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ú in font cmti12!
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ù in font cmti12!
-) [19]
+) [24] [25]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\projectPlan
-.tex" <cronograma.png, id=71, 792.71156pt x 201.75375pt>
+.tex" <cronograma.png, id=96, 792.71156pt x 201.75375pt>
 File: cronograma.png Graphic file (type png)
  <use cronograma.png>
 Package pdftex.def Info: cronograma.png used on input line 8.
@@ -424,34 +557,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--14
 
  []
 
-<cronograma_detallado.png, id=72, 1005.00468pt x 306.39468pt>
+<cronograma_detallado.png, id=97, 1005.00468pt x 306.39468pt>
 File: cronograma_detallado.png Graphic file (type png)
 
 <use cronograma_detallado.png>
 Package pdftex.def Info: cronograma_detallado.png used on input line 17.
 (pdftex.def)             Requested size: 502.50111pt x 153.19696pt.
 
-Overfull \hbox (68.88112pt too wide) in paragraph at lines 17--17
+Overfull \hbox (68.88112pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
-) [20
+) [26
 
 
  <C:/Users/MVINICIO/Documents/Maestria 2013-2015/Seminario #1/tesis/cronograma.
 png> <C:/Users/MVINICIO/Documents/Maestria 2013-2015/Seminario #1/tesis/cronogr
 ama_detallado.png>]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\biblio.tex"
-[21
+[27
 
 
 
-]) [22]
+]) [28]
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\main.aux"
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\cover.aux")
 
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\contents.au
 x") ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appa.au
+x") ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\appb.au
 x")
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\intro.aux")
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\theory.aux"
@@ -469,32 +603,28 @@ s.aux")
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\projectPlan
 .aux")
 ("C:\Users\MVINICIO\Documents\Maestria 2013-2015\Seminario #1\tesis\biblio.aux"
-))
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+)) ) 
 Here is how much of TeX's memory you used:
- 3248 strings out of 493921
- 52892 string characters out of 3147273
- 104384 words of memory out of 3000000
- 6435 multiletter control sequences out of 15000+200000
+ 3361 strings out of 493921
+ 55468 string characters out of 3147273
+ 108384 words of memory out of 3000000
+ 6531 multiletter control sequences out of 15000+200000
  12419 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 36i,7n,39p,815b,322s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pf
-b>
-Output written on main.pdf (22 pages, 212165 bytes).
+ 36i,8n,39p,903b,438s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
+i12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.
+pfb>
+Output written on main.pdf (28 pages, 1453769 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
+ 139 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

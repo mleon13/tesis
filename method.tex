@@ -9,26 +9,18 @@ Para describir el planeamiento pre-experimental para el dise\~no de experimentos
 \item [5.] \textbf{Llevar a cabo el experimiento:} en esta etapa, es de vital importancia monitorear el proceso cuidadosamente para asegurar la correcta ejecuci\'on del experimento con respecto a lo planeado.
 \end{itemize}
 \subsubsection{Declaraci\'on del problema}
-Estudiar la precisi\'on en la detecci\'on de granos de caf\'e existentes por parte de la versi\'on por defecto de P-TRAP\cite{ptrap} y la versi\'on desarrollada en este estudio incorporando el algoritmo \textit{Fast Radial Symmetry Transform}\cite{loyzelinsky}.
+Estudiar la exactitud (accuracy) en la detecci\'on de granos de caf\'e existentes por parte de la versi\'on por defecto de P-TRAP\cite{ptrap} y la versi\'on desarrollada en este estudio incorporando el algoritmo \textit{Fast Radial Symmetry Transform}\cite{loyzelinsky}.
 \subsubsection{Factores}
 En el dise\~no de experimentos, un factor es aquel componente que tiene cierta
 influencia en las variables de respuesta \cite{montgomeryx}. El objetivo de un experimento es determinar esta influencia.
 \\\\
 Usando la informaci\'on recolectada en esta etapa de la investigaci\'on, as\'i como la experiencia adquirida por el estudiante y expuesta en las secciones anteriores, se han seleccionado inicialmente los siguientes factores para su estudio:
 \begin{enumerate}
-    \item Resoluci\'on de la imagen
-	    \begin{itemize}
-		    \item Baja (Rango por definir)
-		    \item Media (Rango por definir)
-		    \item Alta (Rango por definir)
-	    \end{itemize}
-    \item Formato de la imagen
-	    \begin{itemize}
-	        \item BMP (Bitmap)
-	        \item GIF
-	        \item JPG-JPEG
-	        \item PNG
-	    \end{itemize}
+	\item Versi\'on de P-TRAP
+		\begin{itemize}
+			\item Versi\'on por defecto 
+			\item Versi\'on propuesta
+		\end{itemize}
 \end{enumerate}
 Potencialmente, la cantidad de factores que influyen en las variables de respuesta es infinita; sin embargo, por razones de tiempo y presupuesto se han seleccionado las que se considera ejercen mayor influencia en las variables de respuesta. Algunos factores que no se considerar\'an en esta investigaci\'on
 pero que tambi\'en pueden ejercer influencia son:
@@ -39,10 +31,10 @@ pero que tambi\'en pueden ejercer influencia son:
 \subsubsection{Variables de respuesta}
 La variable de respuesta corresponde a la m\'etrica detallada en la secci\'on \ref{metricas} de este documento:
 \begin{itemize}
-\item Precisi\'on
+\item Exactitud (accuracy)
 \end{itemize}
 \subsubsection{Recolecci\'on de datos}
-Una vez ejecutados los experimentos durante el desarrollo de la tesis, se deben recolectar los resultados de estos. La obtenci\'on de las distintas variables de respuesta la har\'a de forma autom\'atica la plataforma que se desarrollar\'a. 
+Una vez ejecutados los experimentos durante el desarrollo de la tesis, se deben recolectar los resultados de estos. La obtenci\'on de las distintas variables de respuesta la har\'a de forma autom\'atica el programa que se desarrollar\'a. 
 \subsubsection{An\'alisis estad\'istico}
 El an\'alisis de varianza unifactorial por rangos, de Kruskal-Wallis\cite{kruskalwallis}, es una prueba \'util para decidir si \textit{k} muestras independientes provienen de diferentes poblaciones.
 \\\\

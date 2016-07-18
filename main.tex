@@ -10,6 +10,7 @@
 \usepackage{indentfirst}
 \usepackage{graphicx}
 \usepackage{caption} 
+\usepackage{subcaption} 
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4} 
 %------------------------------------------------------------------------
@@ -21,7 +22,11 @@
 \renewcommand{\bibname}{Bibliograf\'ia} 
 \renewcommand{\abstractname}{Abstract}
 \renewcommand{\contentsname}{Tabla de Contenido}
-\renewcommand{\listtablename}{Lista de Figuras}
+\renewcommand{\listtablename}{Lista de Tablas}
+\renewcommand{\listfigurename}{Lista de Figuras}
+\renewcommand\thesection{\arabic{section}}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\thefigure}{\arabic{figure}}
 %------------------------------------------------------------------------
 % Add captions
 %------------------------------------------------------------------------
@@ -32,7 +37,7 @@
 \include{cover}
 \include{contents}
 \include{appa}
-%\include{appb}
+\include{appb}
 \include{intro}
 \include{theory}
 \include{proposal}

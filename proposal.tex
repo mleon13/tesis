@@ -1,14 +1,52 @@
 \section{\textbf{Propuesta de Proyecto}}\label{propuesta} 
 \subsection{Planteamiento del Problema}
-La visi\'on por computadora es una disciplina cient\'ifica que utiliza distintos m\'etodos para adquirir, procesar, analizar y comprender im\'agenes del mundo real \cite{klette}. 
-\\\\
 Durante la \'ultima d\'ecada hemos sido testigos del impresionante avance tecnol\'ogico de las c\'amaras fotogr\'aficas. Actualmente, vivimos en una era donde contamos con dispositivos m\'oviles capaces de tomar fotograf\'ias de alta calidad en cualquier lugar y momento. 
 \\\\
-Este avance ha sido el detonante para que en a\~nos recientes la visi\'on por computadora se haya convertido en una tecnolog\'ia clave en diferentes campos. En la industria automotriz son cada vez m\'as populares los carros asistidos por computadoras. Tambi\'en, en la industria de videojuegos la visi\'on por computadora ha sido utilizada para mejorar la interacci\'on entre el usuario y el juego, creando una experiencia de juego cada vez m\'as real. En el \'area de la producci\'on agr\'icola, la visi\'on por computadora puede ser utilizada para mejorar la eficiencia y eficacia en los procesos de detecci\'on y conteo de granos. Ambos procesos, de ser realizados de forma manual, consumen mucho tiempo y existe cierto grado de error humano que afecta el resultado final.
+Este avance ha sido el detonante para que en a\~nos recientes la visi\'on por computadora se haya convertido en una tecnolog\'ia clave en diferentes campos. En la industria automotriz son cada vez m\'as populares los carros asistidos por computadoras. Tambi\'en, en la industria de videojuegos la visi\'on por computadora ha sido utilizada para mejorar la interacci\'on entre el usuario y el juego, creando una experiencia de juego cada vez m\'as real. En el \'area de la producci\'on agr\'icola, la visi\'on por computadora puede ser utilizada para mejorar la eficiencia y eficacia en los procesos de detecci\'on y conteo de granos. Ambos procesos, de ser realizados de forma manual, consumen mucho tiempo y existe cierto grado de error humano que afecta el resultado final \cite{klette}.
 \\\\
 En el Instituto del Caf\'e de Costa Rica (ICAFE) se cuenta con algoritmos para estimar la producci\'on de una planta en particular. Sin embargo, dichos algoritmos requieren como par\'ametro el n\'umero de granos de caf\'e en la planta en cierto punto de su desarrollo. Actualmente, el proceso de conteo de granos se realiza de forma manual, consumiendo una gran cantidad de horas hombre. ICAFE cuenta con una serie de im\'agenes de granos de caf\'e y se desea encontrar una manera autom\'atica de realizar el conteo de granos con el fin de incrementar la eficiencia en el proceso.
-\\\\\\
-En la literatura, se han propuesto varias soluciones para atacar este problema. Sin embargo, la gran mayor\'ia utiliza como entrada im\'agenes de granos en un ambiente controlado.Este es el caso de P-TRAP, una herramienta de c\'odigo abierto que implementa un algoritmo para la detecci\'on de granos en un ambiente controlado. Sin embargo, ICAFE no cuenta con un ambiente controlado para la toma de im\'agenes y cada imagen es tomada directamente desde la planta, en su ambiente natural. 
+\\\\
+En la literatura, se han propuesto varias soluciones para atacar este problema. Sin embargo, la gran mayor\'ia utiliza como entrada im\'agenes de granos en un ambiente controlado. Este es el caso de P-TRAP \cite{ptrap}, una herramienta de c\'odigo abierto que implementa un algoritmo para la detecci\'on de granos en un ambiente controlado. P-TRAP fue dise\~nado con un prop\'osito en particular: analizar la estructura  de pan\'iculas de arroz en im\'agenes para entender la diversidad y mejorar la producci\'on de arroz. Para realizar esta labor, la plataforma cuenta con tres componentes diferentes: an\'alisis de la estructura de la pan\'icula, conteo de granos de arroz y an\'alisis de la forma. En nuestro estudio, nos enfocaremos en el componente para el conteo de granos.
+\\\\
+El componente de conteo de granos de P-TRAP utiliza un enfoque granulom\'etrico el cual consta en obtener la distribuci\'on por tama\~no de los granos presentes. El primer paso del proceso de detecci\'on de granos de P-TRAP es convertir la imagen de entrada de RGB a binario, para luego seguir con el enfoque granulom\'etrico. 
+\\\\
+A continuaci\'on se presentan dos im\'agenes de granos. La imagen \ref{fig:granos_icafe_propuesta} muestra una de las im\'agenes proporcionadas por ICAFE para las pruebas de detecci\'on de granos y la imagen \ref{fig2:granos_ptrap_propuesta} es el tipo de imagen para el cual P-TRAP fue creado originalmente y sobre el que hace una detecci\'on de granos precisa.
+\begin{figure}[!ht]
+  \centering
+  \begin{subfigure}[b]{180pt}
+  	\centering
+    \includegraphics[width=100pt]{granos_1.png}
+    \caption{Granos de ICAFE}
+    \label{fig:granos_icafe_propuesta}
+  \end{subfigure}
+  \begin{subfigure}[b]{170pt}
+    \includegraphics[width=170pt]{semillas_ptrap_1.png}
+    \caption{Granos de P-TRAP}
+    \label{fig2:granos_ptrap_propuesta}
+  \end{subfigure}
+  \caption{Im\'agenes de granos en formato RGB}
+  \label{granos_sin_procesar_propuesta}
+\end{figure}
+\\
+Como se mencion\'o previamente el primer paso en el proceso de detecci\'on de granos en P-TRAP es la conversion de RGB a binario. A continuaci\'on se presentan las im\'agenes despu\'es de realizar la conversi\'on respectiva. 
+\begin{figure}[!ht]
+  \centering
+  \begin{subfigure}[b]{180pt}
+  	\centering
+    \includegraphics[width=100pt]{granos_binario_1.png}
+    \caption{Granos de ICAFE}
+    \label{fig:granos_icafe_binario_propuesta}
+  \end{subfigure}
+  \begin{subfigure}[b]{170pt}
+    \includegraphics[width=170pt]{semillas_ptrap_binario_1.png}
+    \caption{Granos de P-TRAP}
+    \label{fig2:granos_ptrap_binario_propuesta}
+  \end{subfigure}
+  \caption{Im\'agenes de granos en formato binario}
+  \label{granos_procesados_propuesta}
+\end{figure}
+\\
+Como se puede observar en la imagen \ref{fig2:granos_ptrap_binario_propuesta} los granos quedan bien delimitados y en un formato adecuado para continuar con el proceso de detecci\'on y aplicar el enfoque granulom\'etrico. Sin embargo, en el caso de la imagen  \ref{fig:granos_icafe_binario_propuesta} se perdi\'o por completo el contorno de los granos, en este caso cualquier enfoque que se siga va dar resultados imprecisos.
 \\\\
 Realizar la detecci\'on de granos de caf\'e a partir de im\'agenes tomadas fuera de un ambiente controlado agrega una serie de dificultades al proceso, algunas de estas dificultades son:
 \begin{enumerate}
@@ -17,19 +55,25 @@ Realizar la detecci\'on de granos de caf\'e a partir de im\'agenes tomadas fuera
     \item Distancia de los granos con respecto a la c\'amara. En un ambiente controlado podemos tratar esto como una constante y definir un rango de tama\~nos. Sin embargo, en el caso de las im\'agenes tomadas en su ambiente natural no se tiene control sobre esto. El tama\~no de los granos de caf\'e en la imagen va estar determinado por la distancia del r\'acimo al lente de la c\'amara.
     \item Ruido en el fondo de la imagen. En un ambiente controlado el fondo de la imagen tiene un mismo color y textura. En el caso de las im\'agenes de ICAFE, en el fondo se observan hojas, ramas y otro tipo de objetos que le agregan ruido a la imagen.
 \end{enumerate}
-En el caso espec\'ifico de P-TRAP, el algoritmo que permite realizar la detecci\'on de granos no es capaz de resolver dichas dificultades por lo que la precisi\'on de la detecci\'on de granos es muy baja. 
+En el caso espec\'ifico de P-TRAP y como se mostr\'o anteriormente, el proceso que permite realizar la detecci\'on de granos no es capaz de resolver dichas dificultades por lo que la precisi\'on de la detecci\'on de granos de caf\'e es muy baja. 
 \subsection{Propuesta del Proyecto}
-A partir de lo descrito anteriormente, este proyecto pretende estudiar la eficacia en la detecci\'on de granos a partir de la incorporaci\'on del algoritmo \textit{“Fast Radial Symmetry Transform”}\cite{loyzelinsky} al proceso de detecci\'on y conteo de granos ya existente en la herramienta P-TRAP\cite{ptrap}. Este estudio deja por fuera y como parte del posible trabajo futuro, la detecci\'on de granos de caf\'e traslapados y aquellos no visibles en la imagen.
-\subsection{Trabajos Relacionados}
+A partir de lo descrito anteriormente, este proyecto pretende estudiar la eficacia en la detecci\'on de granos a partir de la incorporaci\'on del algoritmo \textit{“Fast Radial Symmetry Transform”}\cite{loyzelinsky} al proceso de detecci\'on y conteo de granos ya existente en la herramienta P-TRAP\cite{ptrap}. 
+\\\\
+El algoritmo \textit{“Fast Radial Symmetry Transform”} fue propuesto por Loy Gareth y Alexander Zelinsky en el paper \textit{“"A Fast Radial Symmetry Transform for Detecting Points of Interest"}\cite{loyzelinsky}. En este trabajo los autores presentan una nueva t\'ecnica de detecci\'on de rasgos que utiliza la simetr\'ia radial local para identificar regiones de inter\'es en una imagen.
+\\\\
+Dada la naturaleza sim\'etrica de los granos de caf\'e es posible que se pueda aplicar esta t\'ecnica al proceso de detecci\'on de granos de P-TRAP. Espec\'ificamente en el inicio, antes del primer paso (conversi\'on de RGB a binario). Esto permitir\'ia que los granos de la imagen original no se pierdan cuando se realice la conversi\'n de RGB a binario puesto que habr\'ian quedado previamente demarcados por el paso anterior donde se aplic\'o el algoritmo \textit{“Fast Radial Symmetry Transform”}\cite{loyzelinsky}.
+\\\\
+Este estudio deja por fuera y como parte del posible trabajo futuro, la detecci\'on de granos de caf\'e traslapados y aquellos no visibles en la imagen. Asimismo, queda para trabajo futuro la estimaci\'on de la producci\'on de la planta de caf\'e a partir de los datos recolectados.
+\subsection{Trabajos Relacionados}\label{trabajos_relacionados}
 La detecci\'on de objetos en im\'agenes ha sido estudiada en muchos trabajos de investigaci\'on.
 \\\\
-En \cite{wangwangji} se propone un framework para el conteo autom\'atico de granos. Este framework esta compuesto de hardware y software. En cuanto a hardware, se propone un mecanismo de vibraci\'on para que los granos sean esparcidos de forma uniforme y no queden traslapados. Luego, se toma una foto que ser\'a convertida a escala de grises y pasar\'a por un proceso de eliminacion de ruido, conversi\'on binaria y morfolog\'ia matem\'atica.
+En \cite{wangwangji} se propone un framework para el conteo autom\'atico de granos. Este framework esta compuesto de hardware y software. En cuanto a hardware, se propone un mecanismo de vibraci\'on para que los granos sean esparcidos de forma uniforme y no queden traslapados. Luego, se toma una foto que ser\'a convertida a escala de grises y pasar\'a por un proceso de eliminacion de ruido, conversi\'on binaria y morfolog\'ia matem\'atica. Ese sistema de vibraci\'on parte del supuesto que los granos est\'an separados pero en el caso de las im\'agenes de ICAFE, los granos a\'un est\'an adheridos a la planta.
 \\\\
-En \cite{nuske} se presenta un m\'etodo autom\'atico que utiliza visi\'on por computadora para identificar y contar uvas. En este estudio se crea un ambiente semi-controlado para la captura de im\'agenes donde un carro recorre lateralmente las plantaciones con una camara de alta tecnolog\'ia y un sistema de luces para asegurar la calidad de las im\'agenes. Seguidamente, se detectan las uvas con base en la forma y textura.
+En \cite{nuske} se presenta un m\'etodo autom\'atico que utiliza visi\'on por computadora para identificar y contar uvas. En este estudio se crea un ambiente semi-controlado para la captura de im\'agenes donde un carro recorre lateralmente las plantaciones con una camara de alta tecnolog\'ia y un sistema de luces para asegurar la calidad de las im\'agenes. Seguidamente, se detectan las uvas con base en la forma y textura. En el caso particular de ICAFE, las im\'agenes son tomadas en un ambiente no controlado y agregar cualquier tipo de hardware incrementa el costo de la soluci\'on.
 \\\\
-En \cite{leafsnap} desarollan una aplicaci\'on para dispositivos m\'oviles capaz de identificar especies de \'arboles a partir de fotos de sus hojas. Entre los aportes principales desarrollados en este trabajo destaca el componente de visi\'on por computadora que descarta im\'agenes que no son de hojas. Para procesar las im\'agenes se procede a segmentar la hoja del fondo de la imagen, se extrae las caracter\'isticas de la curvatura de la hoja y se realiza una comparaci\'on contra un conjunto de entrenamiento para determinar la especie de \'arbol.
+En \cite{leafsnap} desarollan una aplicaci\'on para dispositivos m\'oviles capaz de identificar especies de \'arboles a partir de fotos de sus hojas. Entre los aportes principales desarrollados en este trabajo destaca el componente de visi\'on por computadora que descarta im\'agenes que no son de hojas. Para procesar las im\'agenes se procede a segmentar la hoja del fondo de la imagen, se extrae las caracter\'isticas de la curvatura de la hoja y se realiza una comparaci\'on contra un conjunto de entrenamiento para determinar la especie de \'arbol. Las caracter\'isticas analizadas (curvatura) en esta investigaci\'on son diferentes a las que se requieren analizar en el caso de las im\'agenes de granos de caf\'.
 \\\\
-En \cite{helly} se analizan las manchas en las hojas a partir de im\'agenes con el prop\'osito de diagnosticar posibles enfermedades en la planta. En este proyecto se desarrolla un sistema de procesamiento de im\'agenes integrado. Este sistema cuenta con cuatro etapas: preprocesamiento, segmentaci\'on, extracci\'on de caracter\'isticas y clasificaci\'on. Finalmente, en \cite{periasamy} se presenta una propuesta para investigar diferentes tipo de caracter\'isticas en im\'agenes de granos de arroz para determinar la variedad.
+En \cite{helly} se analizan las manchas en las hojas a partir de im\'agenes con el prop\'osito de diagnosticar posibles enfermedades en la planta. En este proyecto se desarrolla un sistema de procesamiento de im\'agenes integrado. Este sistema cuenta con cuatro etapas: preprocesamiento, segmentaci\'on, extracci\'on de caracter\'isticas y clasificaci\'on. En esta investigaci\'on se conoce de antemano las manchas que se estan buscando por lo que se cuenta con un conjunto de entrenamiento, en esta propuesta no requerir\'iamos conjunto de entrenamiento para realizar la detecci\'on. Finalmente, en \cite{periasamy} se presenta una propuesta para investigar diferentes tipo de caracter\'isticas en im\'agenes de granos de arroz para determinar la variedad.
 
 \subsection{Hip\'otesis}
 Con base en la definici\'on del problema y en la propuesta de proyecto, se define la siguiente hip\'otesis:\\\\
@@ -37,9 +81,21 @@ Con base en la definici\'on del problema y en la propuesta de proyecto, se defin
 \subsection{M\'etricas} \label{metricas}
 El objetivo de este estudio es medir la precisi\'on en la detecci\'on de granos de caf\'e existentes en una versi\'on de la herramienta P-TRAP\cite{ptrap} que incorpore el algoritmo \textit{Fast Radial Symmetry Transform”}\cite{loyzelinsky} y realizar una comparaci\'on con la precisi\'on en la versi\'on por defecto de P-TRAP\cite{ptrap}. Como parte del an\'alisis comparativo entre ambas versiones de P-TRAP\cite{ptrap} se define la siguiente m\'etrica:
 \begin{itemize}
-\item Precisi\'on: \[ granos\_detectados / total\_granos\_existentes \]
+\item Exactitud: \[ granos\_detectados / total\_granos\_existentes \]
 \end{itemize}
+
+El \textit{total\_granos\_existentes} hace referencia a la cantidad de granos que podemos ver a simple vista en la imagen. La variable \textit{granos\_detectados} nos indica el n\'umero de granos que fueron detectados por el sistema. Esta m\'etrica permitir\'a obtener un porcentaje de exactitud despu\'es de realizar el proceso de detecci\'on. Se podr\'a comparar la exactitud en la detecci\'on de granos sobre una imagen determinada entre la versi\'on nueva desarrollada contra la versi\'on predefinida de P-TRAP\cite{ptrap}.
+
 \subsection{Desarrollo del Proyecto}
 El desarrollo de este proyecto implica la creaci\'on de una versi\'on de P-TRAP\cite{ptrap} que incorpore el algoritmo \textit{Fast Radial Symmetry Transform”}\cite{loyzelinsky}. Para el desarrollo de esta versi\'on de P-TRAP\cite{ptrap} se har\'a uso de bibliotecas cuando sea posible, y se programar\'a \'unicamente los algoritmos o funcionalidades que no est\'en disponibles en bibliotecas.
 \\\\
-El desarrollo del proyecto incluye adem\'as el an\'alisis comparativo de la versi\'on por defecto de P-TRAP\cite{ptrap} y la versi\'on desarrollada en este estudio. Para realizar este an\'alisis comparativo es necesario realizar el preprocesamiento sobre el conjunto de im\'agenes proporcionadas por ICAFE. Posteriormente se determinar\'a la cantidad de granos existentes en cada imagen. Luego, en cada versi\'on de P-TRAP\cite{ptrap}, se ejecutar\'a el proceso de detecci\'on de granos sobre cada imagen y se tomar\'a registro de la cantidad de granos de caf\'e existentes detectados. Finalmente, se har\'a un an\'alisis detallado sobre los resultados obtenidos.
+Con la versi\'on de P-TRAP\cite{ptrap} que se desarrollar\'a en este proyecto ser\'a posible determinar la cantidad de granos de caf\'e existentes en una imagen. En la secci\'on \ref{trabajos_relacionados} se explic\'o acerca de los trabajos relacionados a este proyecto, en algunos casos las im\'agenes proporcionadas mostraban los granos separados. Sin embargo, en el caso de las im\'agenes que se proporcionar\'an en este proyecto los granos no est\'an separados y a\'un est\'an adheridos a la planta. Al ser una foto tomada directamente desde la planta, algunas im\'agenes requieren un trabajo de preprocesamiento. Este trabajo de preprocesamiento ser\'a tambi\'en parte del desarrollo del proyecto e incluye la eliminaci\'on de ruido en la imagen. Por ejemplo, hojas, granos, ramas y granos que no pertenecen al r\'acimo que se quiere analizar. 
+\\\\
+A continuaci\'on se muestra un ejemplo de una imagen que es parte del conjunto de im\'agenes que ser\'an analizadas:
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=120pt]{granos_2.png}
+  \caption{Ejemplo de imagen de granos de caf\'e}
+  \label{granos_desarrollo}
+\end{figure}
+\\Una vez concluido el desarrollo de la nueva versi\'on de P-TRAP\cite{ptrap} se realizar\'a un an\'alisis comparativo entre dicha versi\'on y la versi\'on por defecto de P-TRAP\cite{ptrap}. Para este an\'alisis se determinar\'a el n\'umero de granos existentes en cada imagen. Luego, se ejecutar\'a el proceso de detecci\'on de granos sobre cada imagen y se tomar\'a registro de la cantidad de granos de caf\'e existentes detectados por cada versi\'on. Finalmente, se har\'a un an\'alisis detallado sobre los resultados obtenidos.
